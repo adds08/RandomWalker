@@ -1,0 +1,35 @@
+div.center-left {
+    width: 400px;
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+}
+
+div.center {
+    position: absolute;
+    top: 50%;
+    margin-top: -350px;
+    left: 50%;
+    margin-left: -400px;
+}
+
+div.distance {
+    position: fixed;
+    top: 100px;
+    left: 50px;
+}
+
+.slider {
+    padding-bottom: 25px;
+}
+
+button {
+    height: 50px;
+    width: 80px;
+    font-size: 12pt;
+}
+
+#warnings {
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+}

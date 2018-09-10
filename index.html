@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Random Walkers</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="center-left">
+        <center>
+            <div class="distance">
+            </div>
+            <div id="warnings">
+                </div>
+            <div class="slider">
+                <h3>Change Speed of Walking: (<span id="speed"> </span>) %</h3>
+                <input type="range" min="6" max="106" id="speed-slider">
+            </div>
+
+            <div class="controls">
+                <button onclick="onClickEvent(true);">Start</button>
+                <button onclick="onClickEvent(false);">Stop</button>
+            </div>
+            
+        </center>
+
+    </div>
+    <div class="center">
+        <canvas class="canvas" id="screen" width="800px" height="700px">
+        </canvas>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
